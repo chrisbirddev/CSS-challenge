@@ -29,13 +29,13 @@
   </div>
 
   <script>
-    // Function to fetch data from the JSON file and update HTML content
+    
     function fetchDataAndUpdate() {
-      // Fetch data from the JSON file
+      
       fetch('weather_data.json')
         .then(response => response.json())
         .then(data => {
-          // Display the latest entry (assuming data is an array)
+          
           const latestEntry = data[data.length - 1];
           displayWeatherData(latestEntry);
         })
@@ -44,20 +44,20 @@
         });
     }
 
-    // Function to update HTML content with weather data
+    
     function displayWeatherData(weatherData) {
-      // Update each value separately
+      
       document.getElementById('temperatureValue').textContent = `${weatherData.temperature.toFixed(2)} °C`;
       document.getElementById('humidityValue').textContent = `${weatherData.humidity.toFixed()} %`;
       document.getElementById('pressureValue').textContent = `${weatherData.pressure.toFixed()} mBar`;
       document.getElementById('windSpeedValue').textContent = `${weatherData.windSpeed.toFixed(1)} km/h`;
     }
 
-    // Fetch data when the page loads
+   
     fetchDataAndUpdate();
 
-    // Periodically fetch new data every 5 seconds
-    setInterval(fetchDataAndUpdate, 5000);
+    
+    setInterval(fetchDataAndUpdate, 5000); // update every 5 seconds. Too fast?
   </script>
 </body>
 </html>
