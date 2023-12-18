@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(54, 88, 97);
+  }
+  
+  .Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+    background: #618897;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  .icon {
+    font-size: 25px;
+    margin-right: 10px;
+  }
+  
+  
+  #temperatureValue {
+    font-size: 1.2em;
+    color: #ffcc00; 
+  }
+  
+  #humidityValue {
+    font-size: 1.2em;
+    color: #66ccff;
+  }
+  
+  #pressureValue {
+    font-size: 1.2em;
+    color: #ff6666; 
+  }
+  
+  #windSpeedValue {
+    font-size: 1.2em;
+    color: #66ff66;
+  }
+  

@@ -1,0 +1,62 @@
+[
+  {
+    "temperature": 23.832,
+    "humidity": 55.5176,
+    "pressure": 1010.04,
+    "windSpeed": 9.48479
+  },
+  {
+    "temperature": 23.7658,
+    "humidity": 64.0546,
+    "pressure": 1017.76,
+    "windSpeed": 7.876
+  },
+  {
+    "temperature": 26.1319,
+    "humidity": 57.6817,
+    "pressure": 1018.44,
+    "windSpeed": 7.05374
+  },
+  {
+    "temperature": 24.5018,
+    "humidity": 69.7124,
+    "pressure": 1014.24,
+    "windSpeed": 18.296
+  },
+  {
+    "temperature": 25.542,
+    "humidity": 60.9087,
+    "pressure": 1013.15,
+    "windSpeed": 7.19337
+  },
+  {
+    "temperature": 24.1672,
+    "humidity": 63.4596,
+    "pressure": 1012.38,
+    "windSpeed": 6.40702
+  },
+  {
+    "temperature": 25.5714,
+    "humidity": 66.1454,
+    "pressure": 1011.9,
+    "windSpeed": 6.53663
+  },
+  {
+    "temperature": 25.3153,
+    "humidity": 69.934,
+    "pressure": 1010.59,
+    "windSpeed": 11.903
+  },
+  {
+    "temperature": 26.971,
+    "humidity": 59.7487,
+    "pressure": 1014.51,
+    "windSpeed": 13.1196
+  },
+  {
+    "temperature": 26.5473,
+    "humidity": 63.8612,
+    "pressure": 1014.65,
+    "windSpeed": 13.5014
+  }
+]
