@@ -4,8 +4,7 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your mach
 Steps
 Clone the Repository:
 
-bash
-Copy code
+Copy code with: 
 git clone <repository-url>
 cd css-chall
 
