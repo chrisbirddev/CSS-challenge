@@ -28,10 +28,10 @@ function connectToWeatherStation() {
     console.log('Connection closed');
   });
 
-  client.on('error', (err) => {
-    console.error('Error:', err.message);
-    console.error(err.stack); 
-  });
+  // client.on('error', (err) => {
+  //   console.error('Error:', err.message);
+  //   console.error(err.stack); 
+  // }); no errors really come up. 
 }
 
 function fetchDataAndUpdate(client) {
@@ -39,10 +39,10 @@ function fetchDataAndUpdate(client) {
   client.write('READ');
 }
 
-function displayWeatherData(weatherData) {
+function displayWeatherData(weatherData) { // do we need all this on console?
   console.log('Weather Station Data:');
   console.log(`Temperature = ${weatherData.temperature.toFixed(2)} °C`);
-  console.log(`Humidity = ${weatherData.humidity.toFixed()} %`);
+  console.log(`Humidity = ${weatherData.humidity.toFixed()} %`); 
   console.log(`Pressure = ${weatherData.pressure.toFixed()} mBar`);
   console.log(`Wind Speed = ${weatherData.windSpeed.toFixed(2)} km/h`);
 
@@ -64,7 +64,7 @@ function saveDataToJson(weatherData, maxEntries = 10) {
     // Add the new weather data
     existingData.push(weatherData);
   
-    // Limit the number of entries to maxEntries
+    // rewrites the file to only have the last 10 entries so is not too big of a file
     if (existingData.length > maxEntries) {
       existingData = existingData.slice(-maxEntries);
     }
@@ -75,3 +75,10 @@ function saveDataToJson(weatherData, maxEntries = 10) {
   }
 
 connectToWeatherStation();
+
+module.exports = {
+  connectToWeatherStation,
+  fetchDataAndUpdate,
+  displayWeatherData,
+  saveDataToJson,
+};

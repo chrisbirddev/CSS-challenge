@@ -1,62 +1,62 @@
 [
   {
-    "temperature": 23.832,
-    "humidity": 55.5176,
-    "pressure": 1010.04,
-    "windSpeed": 9.48479
+    "temperature": 23.4322,
+    "humidity": 65.1158,
+    "pressure": 1014.89,
+    "windSpeed": 17.069
   },
   {
-    "temperature": 23.7658,
-    "humidity": 64.0546,
-    "pressure": 1017.76,
-    "windSpeed": 7.876
+    "temperature": 26.6685,
+    "humidity": 57.2172,
+    "pressure": 1018.7,
+    "windSpeed": 8.79744
   },
   {
-    "temperature": 26.1319,
-    "humidity": 57.6817,
-    "pressure": 1018.44,
-    "windSpeed": 7.05374
+    "temperature": 26.7957,
+    "humidity": 53.9975,
+    "pressure": 1011.4,
+    "windSpeed": 11.2009
   },
   {
-    "temperature": 24.5018,
-    "humidity": 69.7124,
-    "pressure": 1014.24,
-    "windSpeed": 18.296
+    "temperature": 24.5545,
+    "humidity": 50.3304,
+    "pressure": 1012.4,
+    "windSpeed": 18.3418
   },
   {
-    "temperature": 25.542,
-    "humidity": 60.9087,
-    "pressure": 1013.15,
-    "windSpeed": 7.19337
+    "temperature": 23.0738,
+    "humidity": 60.8028,
+    "pressure": 1014.77,
+    "windSpeed": 14.975
   },
   {
-    "temperature": 24.1672,
-    "humidity": 63.4596,
-    "pressure": 1012.38,
-    "windSpeed": 6.40702
+    "temperature": 24.7649,
+    "humidity": 67.72,
+    "pressure": 1011.94,
+    "windSpeed": 16.9029
   },
   {
-    "temperature": 25.5714,
-    "humidity": 66.1454,
-    "pressure": 1011.9,
-    "windSpeed": 6.53663
+    "temperature": 24.8921,
+    "humidity": 65.9931,
+    "pressure": 1012.4,
+    "windSpeed": 4.86526
   },
   {
-    "temperature": 25.3153,
-    "humidity": 69.934,
-    "pressure": 1010.59,
-    "windSpeed": 11.903
+    "temperature": 25.3375,
+    "humidity": 62.6613,
+    "pressure": 1016.45,
+    "windSpeed": 3.93717
   },
   {
-    "temperature": 26.971,
-    "humidity": 59.7487,
-    "pressure": 1014.51,
-    "windSpeed": 13.1196
+    "temperature": 25.8293,
+    "humidity": 63.6081,
+    "pressure": 1013.55,
+    "windSpeed": 14.1265
   },
   {
-    "temperature": 26.5473,
-    "humidity": 63.8612,
-    "pressure": 1014.65,
-    "windSpeed": 13.5014
+    "temperature": 23.1682,
+    "humidity": 58.9911,
+    "pressure": 1011.34,
+    "windSpeed": 5.09726
   }
 ]
